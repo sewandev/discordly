@@ -1,2 +1,112 @@
+# ------------------------
+# 1. Sistemas operativos
+# ------------------------
+
+# Archivos de sistema
+
+# ------------------------
+# 2. Entornos virtuales
+# ------------------------
+venv/
+ENV/
+env/
+.virtualenv/
+.venv/
+virtualenv/
+
+# Paquetes de Python
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# ------------------------
+# 3. Configuraciones de IDEs / Editores
+# ------------------------
+
+# VS Code
+.vscode/
+.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+.pytest_cache/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# 4. Logs, cachés y archivos temporales
+# ------------------------
+__pycache__/
+logs/
+*.log
+*.pot
+*.pid
+*.seed
+*.prof
+
+# Carpeta de salida de builds o compilados
+build/
+dist/
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.elc
+
+# ------------------------
+# 5. Variables de entorno
+# ------------------------
 .env
-**/logs
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+.env.example
+.env.sample
+
+# ------------------------
+# 6. Archivos de testing
+# ------------------------
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# ------------------------
+# 7. Otros archivos sensibles o generados
+# ------------------------
+*.ini
+*.suo
+*.pdb
+*.log
+*.sql
+*.sqlite
+*.bak
+*.tmp
+*.swp
+*~
+
+# ------------------------
+# 8. Archivos específicos del proyecto (ajustar según necesites)
+# ------------------------
+secret_keys.py
+media/
+static/
+uploads/
+delete.txt
